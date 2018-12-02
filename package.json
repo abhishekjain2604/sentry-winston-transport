@@ -1,0 +1,25 @@
+{
+  "name": "sentry-winston-transport",
+  "version": "1.0.0",
+  "description": "Winston transport for Sentry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Winston",
+    "Sentry",
+    "Winston-transport",
+    "Logger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekjain2604/sentry-winston-transport.git"
+  },
+  "author": "Abhishek Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhishekjain2604/sentry-winston-transport/issues"
+  },
+  "homepage": "https://github.com/abhishekjain2604/sentry-winston-transport#readme"
+}

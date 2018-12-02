@@ -1,2 +1,3 @@
-# sentry-winston-transport
+# Sentry Winston Transport
+
 Winston transport for Sentry
