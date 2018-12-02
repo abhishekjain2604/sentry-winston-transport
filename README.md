@@ -94,5 +94,5 @@ try {
       timeStamp: new Data(),
       requestId: '5b8b8550cd12ca319a46aa0f'  
     };
-    logger.log('error', 'An error occured', { error, extra });
+    logger.log('error', 'An error occured', { error, ...extra });
     ```
