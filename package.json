@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/abhishekjain2604/sentry-winston-transport#readme",
   "dependencies": {
+    "@sentry/node": "^4.4.1",
     "winston-transport": "^4.2.0"
   }
 }
