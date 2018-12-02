@@ -4,7 +4,7 @@ Winston transport for Sentry
 
 
 ## Install
----
+
 ```bash
 $ npm install sentry-winston-transport
 ```
@@ -53,7 +53,6 @@ error   :    'error'
 ```
 
 ## Usage
----
 
 ```javascript
 logger.log('info', 'My first log');
