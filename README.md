@@ -91,7 +91,7 @@ try {
 - **Extra Data**
     ```javascript
     let extra = {
-      timeStamp: new Data(),
+      timeStamp: new Date(),
       requestId: '5b8b8550cd12ca319a46aa0f'  
     };
     logger.log('error', 'An error occured', { error, ...extra });

@@ -44,7 +44,7 @@ class SentryTransport extends Transport {
     let { level, message, error, tags, user, ...extra } = info;
     level = this.levelsMap[level];
 
-    if (Object.prototype.toString.call(user) != {}.toString()) {
+    if (user && Object.prototype.toString.call(user) != {}.toString()) {
       extra.user = user;
       user = null;
     }
